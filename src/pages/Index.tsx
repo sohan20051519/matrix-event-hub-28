@@ -55,7 +55,7 @@ const Index = () => {
             <ScrollReveal delay={0} variant="up">
               <div className="bg-gradient-glass backdrop-blur-sm rounded-lg p-6 sm:p-4 md:p-6 mb-6 sm:mb-6 md:mb-8 border border-primary/20 mx-4 sm:mx-4 md:mx-0">
                 <p className="text-sm sm:text-sm md:text-lg lg:text-xl text-foreground mb-4 sm:mb-3 md:mb-4 leading-relaxed">
-                  23TH, 24TH, 25TH AND 26TH SEPTEMBER 2025
+                  23rd, 24th, 25th AND 26th SEPTEMBER 2025
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-3 md:gap-4 text-center">
                   <div className="py-2">
