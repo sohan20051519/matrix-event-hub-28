@@ -318,8 +318,19 @@ export const events: Event[] = [
     description: "Team sport requiring coordination and power",
     category: "Sports",
     date: "24th Sept",
-    prizes: "₹15,000",
+    prizes: "₹20,000",
     teamSize: "Team (6 players)",
+    registrationUrl: "https://docs.google.com/forms/d/18TXV2skP0fzZdjME4pVAhF1MfIBL3bNRPU8xmK2PeV8/viewform?edit_requested=true",
+    entryFees: {
+      "Team": "₹1,500"
+    },
+    prizePool: {
+      "Tournament": {
+        winner: "₹10,000",
+        runnerUp: "₹6,000",
+        thirdPlace: "₹4,000"
+      }
+    }
   },
 
   // Cultural Events
