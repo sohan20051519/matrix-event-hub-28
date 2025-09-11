@@ -27,8 +27,8 @@ export const events: Event[] = [
     title: "BGMI Tournament",
     description: "Battle Royale championship with intense squad-based combat",
     category: "Gaming",
-    date: "25th & 26th Sept",
-    prizes: "₹25,000",
+    date: "25th Sept",
+    prizes: "₹10,000",
     teamSize: "Squad (4 players)",
     registrationUrl: "https://docs.google.com/forms/d/1sYBDv2yoR8dWpnX7d2Gairb9hYEA94Bsq2ZAk4kIZf4",
     entryFees: {
@@ -36,8 +36,8 @@ export const events: Event[] = [
     },
     prizePool: {
       "Tournament": {
-        winner: "TBD",
-        runnerUp: "TBD",
+        winner: "₹6,000",
+        runnerUp: "₹4,000",
         thirdPlace: "TBD"
       }
     },
@@ -59,8 +59,8 @@ export const events: Event[] = [
     title: "Free Fire",
     description: "Fast-paced battle royale tournament",
     category: "Gaming",
-    date: "25th & 26th Sept",
-    prizes: "₹15,000",
+    date: "26th Sept",
+    prizes: "₹10,000",
     teamSize: "Squad (4 players)",
     registrationUrl: "https://docs.google.com/forms/d/10D5gLcUyWPf36n5fY2fth59mz4b7DMCSxa1SX6YOOfM",
     entryFees: {
@@ -68,8 +68,8 @@ export const events: Event[] = [
     },
     prizePool: {
       "Tournament": {
-        winner: "TBD",
-        runnerUp: "TBD",
+        winner: "₹6,000",
+        runnerUp: "₹4,000",
         thirdPlace: "TBD"
       }
     },
@@ -88,11 +88,18 @@ export const events: Event[] = [
     description: "Test your programming skills with challenging algorithms",
     category: "Technical",
     date: "25th & 26th Sept",
-    prizes: "₹30,000",
+    prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/15eEQdMm67gsKQLPiTABtQs7TK_Gd-UVCo1nUpz_bsaM/viewform?edit_requested=true",
     entryFees: {
       "Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
     },
     rules: [
       "Team Size: 2 members per team",
@@ -108,11 +115,18 @@ export const events: Event[] = [
     description: "Find and fix bugs in complex code scenarios",
     category: "Technical",
     date: "25th & 26th Sept",
-    prizes: "₹12,000",
+    prizes: "₹4,000",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1mf7s4i0mtC-A4VppGkcSPigaj8bomqdTa1ezIYDbidA",
     entryFees: {
       "Individual": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
     },
     rules: [
       "Code Editor: Turbo C++ only",
@@ -128,11 +142,18 @@ export const events: Event[] = [
     description: "Build innovative web solutions in limited time",
     category: "Technical",
     date: "25th & 26th Sept",
-    prizes: "₹20,000",
+    prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/1_9DdEU1nttTJsiml8UIeQz0qhnsR8n8rAWIUufdLgSQ",
     entryFees: {
       "Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
     },
     rules: [
       "Team Size: 2 members",
@@ -148,11 +169,18 @@ export const events: Event[] = [
     description: "Technology-based clues and problem-solving adventure",
     category: "Technical",
     date: "25th & 26th Sept",
-    prizes: "₹10,000",
+    prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/1amOKQxAeexuE3PqM4TA1KnSK90DjZyhMz4Yvl0a8cNs",
     entryFees: {
       "Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
     },
     rules: [
       "Form a Team: Participate in teams of exactly 2 members",
@@ -167,16 +195,34 @@ export const events: Event[] = [
   },
   {
     id: "data-analytics",
-    title: "Data Analytics",
+    title: "Data Analytics Hackathon",
     description: "Extract insights from complex datasets",
     category: "Technical",
     date: "25th & 26th Sept",
-    prizes: "₹15,000",
-    teamSize: "Individual/Pair",
+    prizes: "₹4,000",
+    teamSize: "Individual/Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/19jywl7IK25lfAy6wJ6QZ826RbhDvI5oE3F4qWcLgaJs",
     entryFees: {
-      "Individual/Pair": "₹150"
-    }
+      "Individual/Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
+    },
+    rules: [
+      "Open to UG and PG students; teams of 2 allowed",
+      "Teams must be formed before the event; no changes later",
+      "Focus: Data Analytics (business, health, environment, social media, education, etc.)",
+      "Work must be original and completed during the hackathon; plagiarism not allowed",
+      "Open-source datasets, tools, and libraries may be used",
+      "Deliverables: dataset with source, preprocessing steps, analytics/visualization models, final report/dashboard, and a 5–7 min presentation",
+      "Evaluation: Problem clarity (20%), Data handling (20%), Modeling (25%), Visualization (20%), Teamwork & Presentation (15%)",
+      "Deadline rules are strict; late submissions won't be accepted",
+      "Maintain discipline and professional conduct; misconduct leads to disqualification"
+    ]
   },
 
   // Creative Arts
@@ -186,11 +232,26 @@ export const events: Event[] = [
     description: "Create stunning digital masterpieces",
     category: "Creative Arts",
     date: "25th & 26th Sept",
-    prizes: "₹10,000",
+    prizes: "₹2,000",
     teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1WxPkhbbvbmBVnuuthD1bO_WyRRpE6Z55dEByp_7sys0",
     entryFees: {
       "Individual": "₹100"
     },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
+    },
+    rules: [
+      "Entry Fee: Rs.100 per Event",
+      "Open to all students",
+      "Work must be original and created during the event",
+      "Digital art tools and software allowed",
+      "Plagiarism will lead to disqualification"
+    ]
   },
   {
     id: "pencil-sketching",
@@ -199,18 +260,6 @@ export const events: Event[] = [
     category: "Creative Arts",
     date: "25th & 26th Sept",
     prizes: "₹6,000",
-    teamSize: "Individual",
-    entryFees: {
-      "Individual": "₹100"
-    },
-  },
-  {
-    id: "tattoo-design",
-    title: "Tattoo Design",
-    description: "Design innovative and artistic tattoo concepts",
-    category: "Creative Arts",
-    date: "25th & 26th Sept",
-    prizes: "₹8,000",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
@@ -247,18 +296,6 @@ export const events: Event[] = [
     category: "Creative Arts",
     date: "25th & 26th Sept",
     prizes: "₹5,000",
-    teamSize: "Individual",
-    entryFees: {
-      "Individual": "₹100"
-    },
-  },
-  {
-    id: "makeup",
-    title: "Bridal Makeup",
-    description: "Transform appearances with artistic makeup skills",
-    category: "Creative Arts",
-    date: "25th & 26th Sept",
-    prizes: "₹8,000",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
@@ -455,26 +492,6 @@ export const events: Event[] = [
     ]
   },
   {
-    id: "singing",
-    title: "Singing (Solo & Group)",
-    description: "Showcase your vocal talents",
-    category: "Cultural",
-    date: "25th & 26th Sept",
-    prizes: "₹12,000",
-    teamSize: "Individual/Group",
-    registrationUrl: "https://docs.google.com/forms/d/1MahBFZjw6wEZ6lBm1Fu44Ty5_FA6KUE5Ijfkfn4I2WE",
-    entryFees: {
-      "Solo/Group": "TBD"
-    },
-    prizePool: {
-      "Competition": {
-        winner: "TBD",
-        runnerUp: "TBD",
-        thirdPlace: "TBD"
-      }
-    }
-  },
-  {
     id: "fashion-show",
     title: "Fashion Show",
     description: "Runway modeling with style and confidence",
@@ -539,11 +556,18 @@ export const events: Event[] = [
     description: "Create engaging short-form video content",
     category: "Media & Others",
     date: "25th & 26th Sept",
-    prizes: "₹8,000",
+    prizes: "₹1,500",
     teamSize: "Individual/Team",
     registrationUrl: "https://docs.google.com/forms/d/1SodmWcMpEzYk1L1-GqHIUquH1SoKItcFmWhYaYI3ZPo",
     entryFees: {
       "Individual/Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "TBD"
+      }
     },
     rules: [
       "Originality: Create an original reel inspired by online trends",
