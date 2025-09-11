@@ -317,7 +317,7 @@ export const events: Event[] = [
     title: "Volleyball (Boys & Girls)",
     description: "Team sport requiring coordination and power",
     category: "Sports",
-    date: "24th Sept",
+    date: "23rd Sept",
     prizes: "₹20,000",
     teamSize: "Team (6 players)",
     registrationUrl: "https://docs.google.com/forms/d/18TXV2skP0fzZdjME4pVAhF1MfIBL3bNRPU8xmK2PeV8/viewform?edit_requested=true",
@@ -330,7 +330,21 @@ export const events: Event[] = [
         runnerUp: "₹6,000",
         thirdPlace: "₹4,000"
       }
-    }
+    },
+    rules: [
+      "Reporting Time: 8:00 AM, 23rd Sep 2025",
+      "College ID mandatory",
+      "Participation only for boys",
+      "Sportswear compulsory",
+      "Referees decision will be final",
+      "The Organizing Team will be having all rights to take decisions",
+      "Alcohol consumption or support of such activities is prohibited. Participants found violating this rule will be disqualified",
+      "Teams not reporting on time will be disqualified",
+      "Prize money, trophy, medals and certificate are provided for winners and runners",
+      "Entry fee is strictly non-refundable and non-transferable",
+      "More than one team can participate from same college",
+      "For any queries contact: 9380390867, 7349318372"
+    ]
   },
 
   // Cultural Events
