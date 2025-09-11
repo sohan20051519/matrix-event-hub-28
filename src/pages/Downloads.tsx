@@ -95,6 +95,26 @@ const Downloads = () => {
                   />
                 </CardContent>
               </Card>
+
+              <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-primary/10 bg-card/50 backdrop-blur-sm">
+                <CardContent className="p-4">
+                  <img 
+                    src="/lovable-uploads/632f019c-fb37-444c-ac99-d64ae655ccc7.png" 
+                    alt="Volleyball Championship - Matrix 2K25 - Cash Prize ₹20,000 - September 23, 2025"
+                    className="w-full h-auto object-cover rounded-lg shadow-md"
+                  />
+                </CardContent>
+              </Card>
+
+              <Card className="overflow-hidden hover:shadow-xl transition-all duration-300 border-2 border-primary/10 bg-card/50 backdrop-blur-sm">
+                <CardContent className="p-4">
+                  <img 
+                    src="/lovable-uploads/d6419b6a-1666-4c6f-b481-0a92a2426a27.png" 
+                    alt="Chess Tournament - Matrix 2K25 - Cash Prize ₹20,000 - Entry Fee ₹300"
+                    className="w-full h-auto object-cover rounded-lg shadow-md"
+                  />
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
