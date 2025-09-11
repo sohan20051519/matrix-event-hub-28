@@ -585,6 +585,18 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹6,000",
     teamSize: "Individual",
+    entryFees: {
+      "Individual": "₹100"
+    },
+    rules: [
+      "Individuals only",
+      "Time: 1 Hour 30 Minutes",
+      "Theme: Will be given on the spot",
+      "Use of AI tools not allowed",
+      "Participants have to get their own laptops/tabs/ipads",
+      "Each participant can submit only one poster",
+      "Poster must be digitally created using any of the following software: Adobe Photoshop, Illustrator, Canva, CorelDRAW, MS PowerPoint, GIMP, etc."
+    ]
   },
   {
     id: "logo-design",
@@ -594,6 +606,17 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹7,000",
     teamSize: "Individual",
+    entryFees: {
+      "Individual": "₹100"
+    },
+    rules: [
+      "Individuals only",
+      "Time: 1 Hour 30 Minutes",
+      "Theme: Will be given on the spot",
+      "Plagiarism: Copying from internet will lead to disqualification",
+      "Use of AI tools not allowed",
+      "Systems will be provided. Participants have to get their own laptops/tabs/ipads"
+    ]
   },
   {
     id: "photography",
@@ -603,5 +626,16 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹10,000",
     teamSize: "Individual",
+    entryFees: {
+      "Individual": "₹100"
+    },
+    rules: [
+      "Each participant can submit a maximum of 1 to 5 photographs",
+      "Photographs must be original and taken by the participant",
+      "Theme: College life, Capture an emotion",
+      "Photos must align with the theme to be considered for evaluation",
+      "Minor editing allowed: Brightness, Contrast, Cropping, Color correction",
+      "The following are NOT allowed: Composite images, Adding or removing elements, AI-generated content, Heavy filters that alter the originality of the photo"
+    ]
   },
 ];
