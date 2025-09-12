@@ -547,6 +547,7 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹8,000",
     teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1TlPYHxwMn34Xoo_nvVFugk91JoO6--Td7W0y09O8xO0",
   },
 
   // Media & Others
@@ -585,6 +586,7 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹6,000",
     teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1U0c6vqhfuT6eVwJt2syjeIX7Iou_NxgiZOc0aaksLKs",
     entryFees: {
       "Individual": "₹100"
     },
@@ -606,8 +608,10 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹7,000",
     teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1dZeOu0IrAXTxt3kHXg2gKa-esTBse9qOJn1u02QVeB0",
     entryFees: {
       "Individual": "₹100"
+      
     },
     rules: [
       "Individuals only",
@@ -626,6 +630,7 @@ export const events: Event[] = [
     date: "25th & 26th Sept",
     prizes: "₹10,000",
     teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1oDsLcHqyv6cRsFKNNvRYbCfSNnU8zZy_ZE52FL-iuwc",
     entryFees: {
       "Individual": "₹100"
     },
