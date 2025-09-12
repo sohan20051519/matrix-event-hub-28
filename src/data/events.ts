@@ -301,6 +301,18 @@ export const events: Event[] = [
       "Individual": "₹100"
     },
   },
+  {
+    id: "rangoli",
+    title: "Rangoli",
+    description: "Traditional floor art with intricate patterns and colors",
+    category: "Creative Arts",
+    date: "25th & 26th Sept",
+    prizes: "₹5,000",
+    teamSize: "Individual",
+    entryFees: {
+      "Individual": "₹100"
+    },
+  },
 
   // Sports Events
   {
@@ -382,6 +394,52 @@ export const events: Event[] = [
       "More than one team can participate from same college",
       "For any queries contact: 9380390867, 7349318372"
     ]
+  },
+  {
+    id: "carrom",
+    title: "Carrom Singles (Boys & Girls)",
+    description: "Individual carrom competition organized by Dept. of BCA, KLE Society's Degree College, Nagarbhavi in association with Vijay Carrom Academy",
+    category: "Sports",
+    date: "24th Sept",
+    prizes: "₹10,000",
+    teamSize: "Individual",
+    registrationUrl: "https://docs.google.com/forms/d/1_54pp4dka4X4aTgfovaoyVOvm2ErPG3XZuiCVPq_CP4",
+    entryFees: {
+      "Individual": "₹200"
+    },
+    prizePool: {
+      "Singles": {
+        winner: "₹5,000",
+        runnerUp: "₹3,000",
+        thirdPlace: "₹2,000"
+      }
+    }
+  },
+  {
+    id: "football",
+    title: "Football (Boys & Girls)",
+    description: "Team football tournament for PU and Degree categories",
+    category: "Sports",
+    date: "TBD",
+    prizes: "TBD",
+    teamSize: "Team (11 players)",
+    registrationUrl: "https://docs.google.com/forms/d/1mXS6Y_AzE8KeXZpJqlz5JakqWLYmwiPVvupBnEv7ICg",
+    entryFees: {
+      "PU Boys & Girls": "TBD",
+      "Degree Boys & Girls": "TBD"
+    },
+    prizePool: {
+      "PU Boys & Girls": {
+        winner: "TBD",
+        runnerUp: "TBD",
+        thirdPlace: "TBD"
+      },
+      "Degree Boys & Girls": {
+        winner: "TBD",
+        runnerUp: "TBD",
+        thirdPlace: "TBD"
+      }
+    }
   },
 
   // Cultural Events
