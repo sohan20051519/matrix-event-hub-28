@@ -224,6 +224,25 @@ export const events: Event[] = [
       "Maintain discipline and professional conduct; misconduct leads to disqualification"
     ]
   },
+  {
+    id: "generative-ai",
+    title: "Generative AI",
+    description: "Explore and create with AI-powered tools and techniques",
+    category: "Technical",
+    date: "26th Sept",
+    prizes: "₹4,000",
+    teamSize: "Individual/Team (2 members)",
+    entryFees: {
+      "Individual/Team": "₹150"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹2,000",
+        runnerUp: "₹1,250",
+        thirdPlace: "₹750"
+      }
+    }
+  },
 
   // Creative Arts
   {
@@ -232,7 +251,7 @@ export const events: Event[] = [
     description: "Create stunning digital masterpieces",
     category: "Creative Arts",
     date: "25th Sept",
-    prizes: "₹2,000",
+    prizes: "₹1,500",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1WxPkhbbvbmBVnuuthD1bO_WyRRpE6Z55dEByp_7sys0",
     entryFees: {
@@ -515,15 +534,15 @@ export const events: Event[] = [
     },
     rules: [
       "Each game will have one referee responsible for timekeeping, scorekeeping, and decision-making on fouls, free kicks, throw-ins, penalties, and added time",
-      "Refereeing: The referee's decisions are final and can consult with a WSM operations member during the match if necessary",
-      "Points System: Win: 3 points, Draw: 1 point, Loss: 0 points",
+      "1. Refereeing: The referee's decisions are final and can consult with a WSM operations member during the match if necessary",
+      "2. Points System: Win: 3 points, Draw: 1 point, Loss: 0 points",
       "Tie-Breakers: If teams are tied on points, the following criteria will be used in order: Goal difference, Head-to-head result, Penalty shootout",
-      "Scoring: The whole ball must cross the goal line to count as a goal",
-      "Fouls and Cards: Yellow card: Warning, Red card: Dismissal; the player cannot be replaced, Two yellow cards equal one red card",
-      "Ball Out of Play: A throw-in is awarded if the ball goes out on the side lines off an opponent, A goal kick is awarded if it goes out on the base line off an attacking player, A corner kick is given if it goes out off a defending player",
-      "Jersey Conflicts: If both teams have similar jerseys, bibs will be provided by the referee",
-      "Offside Rule: There is no offside rule in 6-a-side football",
-      "Final Decision: The decision of the referee is final, Any disputes or final decisions rest with the WSM Management"
+      "3. Scoring: The whole ball must cross the goal line to count as a goal",
+      "4. Fouls and Cards: Yellow card: Warning, Red card: Dismissal; the player cannot be replaced, Two yellow cards equal one red card",
+      "5. Ball Out of Play: A throw-in is awarded if the ball goes out on the side lines off an opponent, A goal kick is awarded if it goes out on the base line off an attacking player, A corner kick is given if it goes out off a defending player",
+      "6. Jersey Conflicts: If both teams have similar jerseys, bibs will be provided by the referee",
+      "7. Offside Rule: There is no offside rule in 6-a-side football",
+      "8. Final Decision: The decision of the referee is final, Any disputes or final decisions rest with the WSM Management"
     ]
   },
 
@@ -727,7 +746,7 @@ export const events: Event[] = [
     description: "Design compelling visual communications",
     category: "Media & Others",
     date: "25th Sept",
-    prizes: "₹2,500",
+    prizes: "₹1,500",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1U0c6vqhfuT6eVwJt2syjeIX7Iou_NxgiZOc0aaksLKs",
     entryFees: {
@@ -735,8 +754,8 @@ export const events: Event[] = [
     },
     prizePool: {
       "Competition": {
-        winner: "₹1,500",
-        runnerUp: "₹1,000",
+        winner: "₹1,000",
+        runnerUp: "₹500",
         thirdPlace: "TBD"
       }
     },
