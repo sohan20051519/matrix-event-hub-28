@@ -231,7 +231,7 @@ export const events: Event[] = [
     title: "Digital Art",
     description: "Create stunning digital masterpieces",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹2,000",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1WxPkhbbvbmBVnuuthD1bO_WyRRpE6Z55dEByp_7sys0",
@@ -249,7 +249,11 @@ export const events: Event[] = [
       "Entry Fee: Rs.100 per Event",
       "Open to all students",
       "Work must be original and created during the event",
-      "Digital art tools and software allowed",
+      "Participants may use any digital device (tablet, laptop)",
+      "Accepted software: Photoshop, Procreate, Krita, Illustrator, CorelDRAW, etc.",
+      "Each participant can submit only one entry",
+      "Accepted file formats: JPEG / PNG / PDF",
+      "Use of stock images/textures should be minimal and properly credited",
       "Plagiarism will lead to disqualification"
     ]
   },
@@ -258,60 +262,99 @@ export const events: Event[] = [
     title: "Pencil Sketching",
     description: "Traditional art form with modern themes",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹6,000",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
     },
+    rules: [
+      "Individuals only",
+      "Time: 1 Hour 30 Minutes",
+      "Theme: Open",
+      "Drawing sheets will be provided",
+      "Participants should get their own materials",
+      "Only pencils are allowed (Graphite pencils – HB to 8B)",
+      "No color pencils, pens, charcoal, or ink"
+    ]
   },
   {
     id: "painting",
     title: "Painting",
     description: "Express creativity through colors and canvas",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹7,000",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
     },
+    rules: [
+      "Participants should bring their own materials (colors, brushes, pencils, etc.)",
+      "Only watercolors, poster colors, acrylics, crayons, oil pastels are allowed",
+      "Only drawing sheets are provided",
+      "Only one entry per participant is allowed",
+      "Duration: 2 hours"
+    ]
   },
   {
     id: "face-painting",
     title: "Face Painting",
     description: "Transform faces into artistic canvases",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹5,000",
-    teamSize: "Individual",
+    teamSize: "Individual/Pairs",
     entryFees: {
-      "Individual": "₹100"
+      "Individual/Pairs": "₹100"
     },
+    rules: [
+      "Participation can be individual or in pairs (1 painter + 1 model)",
+      "Participants should bring their own paints, brushes, sponges, glitter, etc",
+      "Use of markers, permanent paints, or harmful chemicals is strictly prohibited",
+      "No pre-painting is allowed; work must be done during competition time",
+      "Duration: 2 hours",
+      "Reference sketches/paper planning is allowed",
+      "Tracing or use of stickers/stencils is not permitted unless specified"
+    ]
   },
   {
     id: "mehandi",
     title: "Mehandi",
     description: "Traditional henna art with contemporary designs",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "26th Sept",
     prizes: "₹5,000",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
     },
+    rules: [
+      "Participants must bring their own mehendi cones",
+      "Use of stencils, stickers, or pre-made designs is strictly prohibited",
+      "Participants must apply mehendi on the hand/arm of a model (can be a friend/partner)",
+      "Duration: 2 hours",
+      "Designs must be drawn freehand during the competition",
+      "Both hands up to wrist"
+    ]
   },
   {
     id: "rangoli",
     title: "Rangoli",
     description: "Traditional floor art with intricate patterns and colors",
     category: "Creative Arts",
-    date: "25th & 26th Sept",
+    date: "26th Sept",
     prizes: "₹5,000",
-    teamSize: "Individual",
+    teamSize: "Individual/Team (2 members)",
     entryFees: {
-      "Individual": "₹100"
+      "Individual/Team": "₹100"
     },
+    rules: [
+      "Participation can be individual or team of 2 members",
+      "Participants must bring their own materials (colors)",
+      "Designs must be drawn freehand or with dots on the spot",
+      "Copying directly from printed designs or mobile screens is discouraged"
+    ]
   },
 
   // Sports Events
@@ -614,7 +657,7 @@ export const events: Event[] = [
     title: "Reel Making",
     description: "Create engaging short-form video content",
     category: "Media & Others",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹1,500",
     teamSize: "Individual/Team",
     registrationUrl: "https://docs.google.com/forms/d/1SodmWcMpEzYk1L1-GqHIUquH1SoKItcFmWhYaYI3ZPo",
@@ -641,12 +684,19 @@ export const events: Event[] = [
     title: "Poster Design",
     description: "Design compelling visual communications",
     category: "Media & Others",
-    date: "25th & 26th Sept",
-    prizes: "₹6,000",
+    date: "25th Sept",
+    prizes: "₹2,500",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1U0c6vqhfuT6eVwJt2syjeIX7Iou_NxgiZOc0aaksLKs",
     entryFees: {
       "Individual": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,500",
+        runnerUp: "₹1,000",
+        thirdPlace: "TBD"
+      }
     },
     rules: [
       "Individuals only",
@@ -663,13 +713,19 @@ export const events: Event[] = [
     title: "Logo Design",
     description: "Create memorable brand identities",
     category: "Media & Others",
-    date: "25th & 26th Sept",
-    prizes: "₹7,000",
+    date: "25th Sept",
+    prizes: "₹1,500",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1dZeOu0IrAXTxt3kHXg2gKa-esTBse9qOJn1u02QVeB0",
     entryFees: {
       "Individual": "₹100"
-      
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "TBD"
+      }
     },
     rules: [
       "Individuals only",
@@ -685,12 +741,19 @@ export const events: Event[] = [
     title: "Photography",
     description: "Capture moments and tell stories through images",
     category: "Media & Others",
-    date: "25th & 26th Sept",
-    prizes: "₹10,000",
+    date: "25th Sept",
+    prizes: "₹1,500",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1oDsLcHqyv6cRsFKNNvRYbCfSNnU8zZy_ZE52FL-iuwc",
     entryFees: {
       "Individual": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "TBD"
+      }
     },
     rules: [
       "Each participant can submit a maximum of 1 to 5 photographs",
