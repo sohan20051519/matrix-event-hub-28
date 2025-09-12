@@ -87,7 +87,7 @@ export const events: Event[] = [
     title: "Coding Competition",
     description: "Test your programming skills with challenging algorithms",
     category: "Technical",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/15eEQdMm67gsKQLPiTABtQs7TK_Gd-UVCo1nUpz_bsaM/viewform?edit_requested=true",
@@ -114,7 +114,7 @@ export const events: Event[] = [
     title: "Debugging Challenge",
     description: "Find and fix bugs in complex code scenarios",
     category: "Technical",
-    date: "25th & 26th Sept",
+    date: "25th Sept",
     prizes: "₹4,000",
     teamSize: "Individual",
     registrationUrl: "https://docs.google.com/forms/d/1mf7s4i0mtC-A4VppGkcSPigaj8bomqdTa1ezIYDbidA",
@@ -141,7 +141,7 @@ export const events: Event[] = [
     title: "Web Development",
     description: "Build innovative web solutions in limited time",
     category: "Technical",
-    date: "25th & 26th Sept",
+    date: "26th Sept",
     prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/1_9DdEU1nttTJsiml8UIeQz0qhnsR8n8rAWIUufdLgSQ",
@@ -168,7 +168,7 @@ export const events: Event[] = [
     title: "Technical Treasure Hunt",
     description: "Technology-based clues and problem-solving adventure",
     category: "Technical",
-    date: "25th & 26th Sept",
+    date: "26th Sept",
     prizes: "₹4,000",
     teamSize: "Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/1amOKQxAeexuE3PqM4TA1KnSK90DjZyhMz4Yvl0a8cNs",
@@ -198,7 +198,7 @@ export const events: Event[] = [
     title: "Data Analytics Hackathon",
     description: "Extract insights from complex datasets",
     category: "Technical",
-    date: "25th & 26th Sept",
+    date: "26th Sept",
     prizes: "₹4,000",
     teamSize: "Individual/Team (2 members)",
     registrationUrl: "https://docs.google.com/forms/d/19jywl7IK25lfAy6wJ6QZ826RbhDvI5oE3F4qWcLgaJs",
@@ -263,10 +263,17 @@ export const events: Event[] = [
     description: "Traditional art form with modern themes",
     category: "Creative Arts",
     date: "25th Sept",
-    prizes: "₹6,000",
+    prizes: "₹1,500",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
     },
     rules: [
       "Individuals only",
@@ -284,10 +291,17 @@ export const events: Event[] = [
     description: "Express creativity through colors and canvas",
     category: "Creative Arts",
     date: "25th Sept",
-    prizes: "₹7,000",
+    prizes: "₹1,500",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
     },
     rules: [
       "Participants should bring their own materials (colors, brushes, pencils, etc.)",
@@ -303,10 +317,17 @@ export const events: Event[] = [
     description: "Transform faces into artistic canvases",
     category: "Creative Arts",
     date: "25th Sept",
-    prizes: "₹5,000",
+    prizes: "₹1,500",
     teamSize: "Individual/Pairs",
     entryFees: {
       "Individual/Pairs": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
     },
     rules: [
       "Participation can be individual or in pairs (1 painter + 1 model)",
@@ -324,10 +345,17 @@ export const events: Event[] = [
     description: "Traditional henna art with contemporary designs",
     category: "Creative Arts",
     date: "26th Sept",
-    prizes: "₹5,000",
+    prizes: "₹1,500",
     teamSize: "Individual",
     entryFees: {
       "Individual": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
     },
     rules: [
       "Participants must bring their own mehendi cones",
@@ -344,10 +372,17 @@ export const events: Event[] = [
     description: "Traditional floor art with intricate patterns and colors",
     category: "Creative Arts",
     date: "26th Sept",
-    prizes: "₹5,000",
+    prizes: "₹1,500",
     teamSize: "Individual/Team (2 members)",
     entryFees: {
       "Individual/Team": "₹100"
+    },
+    prizePool: {
+      "Competition": {
+        winner: "₹1,000",
+        runnerUp: "₹500",
+        thirdPlace: "Trophy"
+      }
     },
     rules: [
       "Participation can be individual or team of 2 members",
@@ -463,8 +498,8 @@ export const events: Event[] = [
     title: "Football (Boys & Girls)",
     description: "Team football tournament for PU and Degree categories",
     category: "Sports",
-    date: "TBD",
-    prizes: "TBD",
+    date: "24th Sept",
+    prizes: "₹13,000",
     teamSize: "Team (11 players)",
     registrationUrl: "https://docs.google.com/forms/d/1mXS6Y_AzE8KeXZpJqlz5JakqWLYmwiPVvupBnEv7ICg",
     entryFees: {
@@ -472,17 +507,24 @@ export const events: Event[] = [
       "Degree Boys & Girls": "TBD"
     },
     prizePool: {
-      "PU Boys & Girls": {
-        winner: "TBD",
-        runnerUp: "TBD",
-        thirdPlace: "TBD"
-      },
-      "Degree Boys & Girls": {
-        winner: "TBD",
-        runnerUp: "TBD",
-        thirdPlace: "TBD"
+      "Tournament": {
+        winner: "₹8,000",
+        runnerUp: "₹5,000",
+        thirdPlace: "Trophy"
       }
-    }
+    },
+    rules: [
+      "Each game will have one referee responsible for timekeeping, scorekeeping, and decision-making on fouls, free kicks, throw-ins, penalties, and added time",
+      "Refereeing: The referee's decisions are final and can consult with a WSM operations member during the match if necessary",
+      "Points System: Win: 3 points, Draw: 1 point, Loss: 0 points",
+      "Tie-Breakers: If teams are tied on points, the following criteria will be used in order: Goal difference, Head-to-head result, Penalty shootout",
+      "Scoring: The whole ball must cross the goal line to count as a goal",
+      "Fouls and Cards: Yellow card: Warning, Red card: Dismissal; the player cannot be replaced, Two yellow cards equal one red card",
+      "Ball Out of Play: A throw-in is awarded if the ball goes out on the side lines off an opponent, A goal kick is awarded if it goes out on the base line off an attacking player, A corner kick is given if it goes out off a defending player",
+      "Jersey Conflicts: If both teams have similar jerseys, bibs will be provided by the referee",
+      "Offside Rule: There is no offside rule in 6-a-side football",
+      "Final Decision: The decision of the referee is final, Any disputes or final decisions rest with the WSM Management"
+    ]
   },
 
   // Cultural Events
